@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es-Co">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/main/view__products.css">
+    <link rel="stylesheet" href="./assets/css/main/carrousel.css">
+    <link rel="stylesheet" href="./assets/css/footer/form__contact.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <title>Alura-Geek</title>
+</head>
+
+<body>
+    <!---Header--->
+    <header class="container">
+        <nav class="container___nav">
+            <p class="container__nav___logo">
+                <img src="./assets/img/cosmelogo.PNG" alt="logo-alura-geek" height="90x">Cosmeticos y  Más<span>  </span>
+            </p>
+            <div class="container__nav___searchInput">
+                <input class="nav__searchInput___input" type="text" placeholder="¿Que deseas Buscar?" name="search">
+                <a href="" class="nav__searchInput___submit"><img src="./assets/img/search.svg" alt="search-icon"></a>
+            </div>
+        </nav>
+    </header>
+    <!---Main section-->
+    <main>
+        <!---Section Products View--->
+        <section class="container-full">
+            <div class="div__products">
+                <img src="./assets/img/base.PNG" class="div__products___img " alt="imagen-productos-xbox">
+                <div class="div__products__description">
+                    <h2 class="div__products__description__title">Urban FPS 50 Base de Maquillaje en Crema</h2>
+                    <p class="div__products__description__details"><strong>$800</strong></p>
+                    <p class="div__products__description__details"></p>
+                </div>
+            </div>
+        </section>
+        <!---Carrousel--->
+        <section class="container">
+            <div class="carrousel__articles">
+                <div class="carrousel__articles___title">
+                    <h3 class="carrousel__articles___title__h3">Productos Similares</h3>
+                </div>
+                <div class="carrousel__articles___post">
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/cacerola.PNG" alt="cacerola">
+                        <p> cacerola</p>
+                        <p>$3.500</p>
+                        <a class="carrousel__articles___link" href="">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/show.PNG" alt="sombra>
+                        <p>Show Glow sombra dual para parpados </p>
+                        <p>$800</p>
+                        <a class="carrousel__articles___link" href="">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/today.PNG" alt="perfume">
+                        <p>Today Eau de parfum</p>
+                        <p>$1.300</p>
+                        <a class="carrousel__articles___link" href="">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/labial.PNG" alt="labial">
+                        <p>Lip Tint Labial</p>
+                        <p>$600</p>
+                        <a class="carrousel__articles___link" href="">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/peines.PNG" alt="peines">
+                        <p>Set de Cepillos desenredantes</p>
+                        <p>$2.500</p>
+                        <a class="carrousel__articles___link" href="">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/anew.PNG" alt="edad">
+                        <p>Hydra-Pro Vita D Crema-Gel Facial</p>
+                        <p>$1.000</p>
+                        <a class="carrousel__articles___link" href="">Ver Producto</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!---Footer--->
+    <footer class="container-full">
+        <div class="div__footer">
+            <div class="div__footer___information">
+                <div class="div__footer___content">
+                    <p class="container__nav___logo">
+                        <img src="./assets/img/cosmelogo.PNG" alt="logo-alura-geek" height="90px">Cosmeticos y <span> más</span>
+                    </p>
+                    <div class="div__footer___contact">
+                        <a href="">Quienes Somos</a>
+                        <a href="">Politicas de Privacidad</a>
+                        <a href="">Programa de Fidelidad</a>
+                        <a href="">Nuestras Tiendas</a>
+                        <a href="">Quiero ser franquiciado</a>
+                        <a href="">Anuncie Aqui</a>
+                    </div>
+                </div>
+                <div class="div__footer___form">
+                    <h3>Hable con nosotros</h3>
+                    <div class="div__footer___input">
+                        <label for="name">Nombre </label>
+                        <input class="input__verification" type="text" name="name" required>
+                    </div>
+                    <div class="div__footer___input">
+                        <label for="message">Escribe Tu Mensaje </label>
+                        <textarea class="input__verification" name="" id="" required></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-secondary" value="Enviar">
+                </div>
+            </div>
+        </div>
+        <div class="div__footer___copyright">
+            <p>Desarrollado por Avila Eliana Nicolasa</p>
+            <small>
+                Todos los derechos reservados 2022
+            </small>
+        </div>
+    </footer>
+    <script src="./assets/js/validateForm.js"></script>
+</body>
+
+
+</html>

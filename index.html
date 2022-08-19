@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es-Co">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/main/banner.css">
+    <link rel="stylesheet" href="./assets/css/main/carrousel.css">
+    <link rel="stylesheet" href="./assets/css/footer/form__contact.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <title>Alura-Geek</title>
+</head>
+
+<body>
+    <!---Header--->
+    <header class="container">
+        <nav class="container___nav">
+            <p class="container__nav___logo">
+                <img src="./assets/img/cosmelogo.PNG" alt="logo-alura-geek" height="90px">Cosmeticos y  más<span> </span>
+            </p>
+            <div class="container__nav___searchInput">
+                <input class="nav__searchInput___input" type="text" placeholder="¿Que deseas Buscar?" name="search">
+                <a href="" class="nav__searchInput___submit"><img src="./assets/img/search.svg" alt="search-icon"></a>
+            </div>
+            <a href="./login.html" class="btn btn-primary">Login</a>
+        </nav>
+    </header>
+    <!---Main section-->
+    <main>
+        <!---Banner--->
+        <section class="container-full">
+            <div class="section__banner" style="background:url(./assets/img/cosavon.PNG);background-repeat: no-repeat; background-position: center;background-size:cover;">
+                <div class="section__banner___about">
+                    <div class="section__baner___content">
+                        <h2 class="section__banner___about__h2">¡Septiembre de Promociones !</h2>
+                        <p class="section__banner___about__p">Aprovecha de los mejores cosmeticos con un 25% de descuento</p>
+                        <button class="btn btn-secondary">Ver Cosmeticos</button>
+                    </div>
+                </div>
+            </div>
+            <div class="section__banner" style="background:url(./assets/img/gigot.jpg);background-repeat: no-repeat; background-position: center;background-size:cover; display: none;">
+                <div class="section__banner___about">
+                    <div class="section__baner___content">
+                        <h2 class="section__banner___about__h2">¡Llega la primavera !</h2>
+                        <p class="section__banner___about__p"> La primavera llega junto con con grandes ofertas para vos </p>
+                        <button class="btn btn-secondary">Ver Cosmeticos </button>
+                    </div>
+                </div>
+            </div>
+            <div class="section__banner" style="background:url(./assets/img/violeta.jpg);background-repeat: no-repeat; background-position: center;background-size:cover; display: none;">
+                <div class="section__banner___about">
+                    <div class="section__baner___content">
+                        <h2 class="section__banner___about__h2">Cuida tu piel </h2>
+                        <p class="section__banner___about__p">En esta primavera Mantene tu piel suave y saludable con nuestros productos  </p>
+                        <button class="btn btn-secondary">Ver Cosmeticos</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---Productos Avon--->
+        <section class="container">
+            <div class="carrousel__articles">
+                <div class="carrousel__articles___title">
+                    <h3 class="carrousel__articles___title__h3">Productos Avon</h3>
+                    <a class="carrousel__articles___link" href="./crud.html">Ver más productos de Avon ➜</a>
+                </div>
+                <div class="carrousel__articles___post">
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/base.PNG" alt="imagen-promocional-xbox">
+                        <p>Urban FPS 50 Base de Maquillaje en Crema</p>
+                        <p>$800</p>
+                        <a class="carrousel__articles___link" href="./pa1.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/peines.PNG" alt="peines">
+                        <p>Set de Cepillos desenredantes</p>
+                        <p>$2.500</p>
+                        <a class="carrousel__articles___link" href="./pa2.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/labial.PNG" alt="ilabial">
+                        <p>Lip Tint Labial </p>
+                        <p>$650</p>
+                        <a class="carrousel__articles___link" href="./pa2.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/anew.PNG" alt="edad">
+                        <p>Hydra-Pro Vita D Crema-Gel Facial</p>
+                        <p>$1.000</p>
+                        <a class="carrousel__articles___link" href="./view__Products.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/today.PNG" alt="perfume">
+                        <p>Today Eau de parfum</p>
+                        <p>$1.300</p>
+                        <a class="carrousel__articles___link" href="./view__Products.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/perfume.PNG" alt="iperfume">
+                        <p>Eau de Bouquet Colonia en Spray para ella</p>
+                        <p>$600</p>
+                        <a class="carrousel__articles___link" href="./view__Products.html">Ver Producto</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!---Productos Gigot --->
+        <section class="container">
+            <div class="carrousel__articles">
+                <div class="carrousel__articles___title">
+                    <h3 class="carrousel__articles___title__h3"> Productos Gigot</h3>
+                    <a class="carrousel__articles___link" href="./crud.html">Ver más productos de Gigot ➜</a>
+                </div>
+                <div class="carrousel__articles___post">
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/org.PNG" alt="Organizador">
+                        <p>Organizador de cartera  </p>
+                        <p>$1.600</p>
+                        <a class="carrousel__articles___link" href="./pg1.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/emotion.PNG" alt="colonia">
+                        <p>Eau de toilette Emotion</p>
+                        <p>$1.400</p>
+                        <a class="carrousel__articles___link" href="./pg1.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/copas.PNG" alt="plastico">
+                        <p>Set x 4 de copas  </p>
+                        <p>$1.500</p>
+                        <a class="carrousel__articles___link" href="./pg1.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/sarten.PNG" alt="cocina">
+                        <p>Halo Infinite</p>
+                        <p>$0.000</p>
+                        <a class="carrousel__articles___link" href="./pg1.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/jarra.PNG" alt="jarra">
+                        <p>Jarra exprimidor con 2 vasos set x 3 </p>
+                        <p>$1.200</p>
+                        <a class="carrousel__articles___link" href="./pg1.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/sombra.PNG" alt="ojos">
+                        <p>Paleta de 12 sombras </p>
+                        <p>$1.400</p>
+                        <a class="carrousel__articles___link" href="./pg1.html">Ver Producto</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!---Productos Violetta--->
+        <section class="container">
+            <div class="carrousel__articles">
+                <div class="carrousel__articles___title">
+                    <h3 class="carrousel__articles___title__h3">Productos Violetta </h3>
+                    <a  class="carrousel__articles___link"  href="./crud.html">Ver más productos Violetta ➜</a>
+                </div>
+                <div class="carrousel__articles___post">
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/locion.PNG" alt="colonia">
+                        <p>Love You Rainbow Eau de Toilette</p>
+                        <p>$1.500</p>
+                        <a class="carrousel__articles___link" href="./pv1.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/midnight.PNG" alt="perfumes">
+                        <p>Set x 2 de Body Love midnight Affair Splash</p>
+                        <p>$2.900</p>
+                        <a class="carrousel__articles___link" href="./pa1.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/arandanos.PNG" alt="arandanos">
+                        <p>Crema Antiarrugas de arandanos</p>
+                        <p>$500</p>
+                        <a class="carrousel__articles___link" href="./view__Products.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/limpieza.PNG" alt="limpieza facial">
+                        <p>Leche de Limpieza Facial 3 en 1 </p>
+                        <p>$1.100</p>
+                        <a class="carrousel__articles___link" href="./view__Products.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/colador.PNG" alt="colador">
+                        <p>Colador para pastas </p>
+                        <p>$650</p>
+                        <a class="carrousel__articles___link" href="./pa2.html">Ver Producto</a>
+                    </article>
+                    <article class="carrousel__articles___item">
+                        <img class="carrousel__articles___item__img" src="./assets/img/seco.PNG" alt="platos">
+                        <p>Escurridor de platos,cubiertos y vasos</p>
+                        <p>$1.200</p>
+                        <a class="carrousel__articles___link" href="./view__Products.html">Ver Producto</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!---Footer--->
+    <footer class="container-full">
+        <div class="div__footer">
+            <div class="div__footer___information">
+                <div class="div__footer___content">
+                    <p class="container__nav___logo">
+                        <img src="./assets/img/cosmelogo.PNG" alt="logo-alura-geek" height="90px">Cosmeticos y  <span>  más </span>
+                    </p>
+                    <div class="div__footer___contact">
+                        <a href="">Quienes Somos</a>
+                        <a href="">Politicas de Privacidad</a>
+                        <a href="">Programa de Fidelidad</a>
+                        <a href="">Nuestras Tiendas</a>
+                        <a href="">Quiero ser franquiciado</a>
+                        <a href="">Anuncie Aqui</a>
+                    </div>
+                </div>
+                <div class="div__footer___form">
+                    <h3>Hable con nosotros</h3>
+                    <div class="div__footer___input">
+                        <label for="name">Nombre </label>
+                        <input class="input__verification" type="text" name="name" required>
+                    </div>
+                    <div class="div__footer___input">
+                        <label for="message">Escribe Tu Mensaje </label>
+                        <textarea class="input__verification" name="text" id="" required></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-secondary" value="Enviar">
+                </div>
+            </div>
+        </div>
+        <div class="div__footer___copyright">
+            <p>Desarrollado por Eliana Nicolasa Avila</p>
+            <small>
+                Todos los derechos reservados 2022
+            </small>
+        </div>
+    </footer>
+    <script src="./assets/js/validateForm.js"></script>
+    <script src="./assets/js/slider.js"></script>
+</body>
+
+
+</html>
